@@ -1,0 +1,204 @@
+@media (max-width: 1024px) {
+    .herosection {
+        height: 400px;
+    }
+    .bottomdiv {
+        width: 30%;
+    }
+    .aboutdiv2 {
+        background-size: cover;
+    }
+    .about {
+        margin-top: 7rem;
+    }
+    .sub2 , .sub3 {
+        display: none;
+    }
+    .sub1 {
+        border: none;
+        grid-template-columns: repeat(4 , auto);
+        row-gap: 20px;
+    }
+    .sub1 .serls {
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .sub1 button {
+        grid-column: 1 / 5;
+    }
+    .doctors {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .blog-group {
+        margin: auto;
+        height: inherit;
+        grid-template-columns: repeat(1 , auto);
+        width: fit-content;
+        /* width: 50vw; */
+    }
+    .blog-post {
+        padding-bottom: 20px;
+        /* flex-direction: column; */
+        width: fit-content; 
+        /* width: 200px; */
+        text-wrap: wrap;
+        overflow: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .bottom {
+        display: none;
+    }
+    .herosection {
+        height: 300px;
+        margin-top: 13rem;
+    }
+    .herosection::before {
+        width: 100px;
+        height: 100px;
+        top: -40px;
+        left: -30px;
+    }
+    header .fnav {
+        height: fit-content;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        row-gap: 1rem;
+    }
+    .aboutdiv1 {
+        width: inherit;
+    }
+    .sub1 {
+        grid-template-columns: repeat(2 , auto);
+    }
+    .sub1 button {
+        grid-column: 1 / 3;
+    }
+    .chart {
+        grid-template-columns: repeat(3 , auto);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .navbar .navlinks {
+        display: none;
+    }
+    .herosection {
+        height: 350px;
+        margin-top: 5rem;
+    }
+    header .fnav {
+        display: none;
+    }
+    .fnav h1 {
+        display: none;
+    }
+    .fnav-div-parent {
+        padding-top: 1rem;
+        border: 1px solid;
+        width: inherit;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        font-size: 10px;
+    }
+    .fnav-div-child {
+        border: 1px solid;
+    }
+    .fnav-div-child i {
+        font-size: 20px;
+    }
+    .navbar button {
+        display: none;
+    }
+    .herosection {
+        background-image: none;
+    }
+    .herotxt {
+        margin-top: 5rem;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .herotxt h3 {
+        text-align: center;
+    }
+    .herotxt h1 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .herotxt button {
+        margin: auto;
+    }
+    header .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+    .navbar h1{
+        display: block;
+    }
+
+    .navbar i {
+        display: block;
+        font-size: 25px;
+    }
+    .herosection .mobile-image {
+        display: block;
+        opacity: .9;
+    }
+    .about {
+        width: 100vw;
+    }
+    .aboutdiv1 {
+        width: 97vw;
+    }
+    .aboutdiv1 h2 {
+        font-size: 20px;
+    }
+    .aboutdiv2 {
+        background-image: none;
+        height: fit-content;
+    }
+    
+    .aboutdiv2 img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+    .service {
+        width: 90vw;
+    }
+    .subservice {
+        margin: auto;
+        width: inherit;
+    }
+    .sub1 {
+        column-gap: 10px;
+    }
+    .specialty {
+        width: 90vw;
+    }
+    .chart {
+        width: 90vw;
+        grid-template-columns: repeat(2 , auto);
+        height: 550px;
+    }
+    .chart i {
+        font-size: 30px;
+    }
+    .doctor {
+        width: 90vw;
+    }
+    .blogs {
+        width: 90vw;
+    }
+    .blog-post {
+        flex-direction: column;
+    }
+}
